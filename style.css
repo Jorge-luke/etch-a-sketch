@@ -1,0 +1,34 @@
+.box{
+    background-color: blue;
+    display: flex;
+    width: 600px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-content: baseline;
+    justify-content: center;
+    padding: 4px;
+}
+
+.square{
+    aspect-ratio: 1;
+    flex:auto;
+    background-color: aqua;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    color: red;
+}
